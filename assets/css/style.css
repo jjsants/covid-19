@@ -1,0 +1,183 @@
+
+.logo{
+ height: 180px;
+ width: 100%;
+
+ background: url("../images/covid-19-3.jpeg") no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+/* align content, display in the middle*/
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ overflow:fill;
+}
+
+/*--------------------------------------------------------- Nav */
+.nav{
+    padding: 0;
+    height: 180px;
+}
+.nav-main{
+width: 100%;
+margin: 0;
+}
+.nav-sec-left{
+width: 50%;
+margin: 0;
+
+}
+.nav-sec-right{
+width: 50%;
+margin: 0;
+}
+.nav-left{
+    padding: 0;
+}
+.nav-right{
+    padding: 0;
+}
+.navbar-list-left{
+    text-align: left;
+    margin:0;
+    padding-left: 20px;
+    color: blue;
+    
+}
+.navbar-list-right{
+    text-align: right;
+    margin: auto0;
+    padding-right: 20px;
+    color: red;
+}
+.navbar-list-left li{
+    justify-content: center;
+}
+.navbar-list-right li{
+   justify-content: center;
+   font-size: 28px;
+}
+   /*--------------------------------------------------------- container */
+
+.logo-main{
+ height: 100vh;
+ width: 100%;
+ margin: 0px;
+ background: url("../images/cod-map.png") no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ object-fit: fill;
+/* align content, display in the middle*/
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.main-info{
+    display: block;
+}
+
+.main-header{
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+.virus{
+    letter-spacing: 20px;
+}
+.col-md-4{
+    margin: 60px 0;
+    text-align: right;
+    font-weight: 300;
+    font-family: "Ex"
+}
+.col-12{
+    margin: 0;
+    padding: 0;
+    border:0;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Ex"
+}
+.row{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.justify-content-start .col-md-4{
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 90px;
+}
+.justify-content-start .sec-col{
+    text-align: right;
+    padding-top: 10px;
+}
+.justify-content-start .first-col{
+    padding-top: 10px;
+}
+.justify-content-between .col-md-4{
+    text-align: right; 
+}
+.justify-content-end .col-md-4{
+    text-align: left;
+    
+}
+.justify-content-end .sec-col{
+    text-align: right;
+    padding-right: 180px;
+}
+.justify-content-center .col-md-4{
+    text-align: right;
+}
+.spinner-grow {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: spinner-grow 1s linear infinite;
+    animation: spinner-grow 1s linear infinite;
+    margin-right:3px;
+}
+.btn-info{
+    border-radius: 35%;
+    color: #837c7c;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 8px #cfcdcd;
+    border-color:none;
+    border: 0;
+    margin-bottom: 6px;
+}
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:active:focus{
+    box-shadow: 2px 2px 4px #d4c4c4;
+    border-color:none;
+    border: 0;
+    color: rgb(221, 126, 126);
+    background-color: rgba(219, 207, 205, 0.7);
+}
+.sm-container{
+    width: 70%;
+    margin: 0 auto;
+    
+}
