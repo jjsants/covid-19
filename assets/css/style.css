@@ -2,7 +2,7 @@
 .logo{
  height: 180px;
  width: 100%;
-
+ 
  background: url("../images/covid-19-3.jpeg") no-repeat center center; 
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -17,49 +17,69 @@
 }
 
 /*--------------------------------------------------------- Nav */
-.nav{
-    padding: 0;
+
+.container-fluid .x{
     height: 180px;
 }
-.nav-main{
-width: 100%;
-margin: 0;
+.navbar-menu{
+    color: rgba(199, 196, 196, 0.7);
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px #cfcdcd;
+    border-color:none;
+    border: 0;
+    margin-bottom: 6px;
+    border-radius: 10%;
 }
-.nav-sec-left{
-width: 50%;
-margin: 0;
+.navbar-nav .navbar-item{
+width: 25%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(56, 55, 55, 0.5);
+    background: rgba(204, 203, 203, 0.5);    
+    box-shadow: 3px 25px 46px 16px rgba(248, 246, 246, 0.78); 
+    border-color:none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 10%;
+}
+.navbar-toggler-icon {
+background-color: rgba(0,0,0,0.5);
+border-radius: 15%;
+}
 
+.nav-bar-big{
+    height: 180px;
+  
+    width: 100%;
 }
-.nav-sec-right{
-width: 50%;
-margin: 0;
+.big .nav-big-link{
+    border-radius: 15%;
+    color: #837c7c;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 8px #cfcdcd;
+    border-color:none;
+    border: 0;
+    margin-bottom: 6px;
 }
-.nav-left{
-    padding: 0;
+.big .link{
+    padding-top: 180px;
 }
-.nav-right{
-    padding: 0;
+.nav-big-link:hover,
+.nav-big-link:active,
+.nav-big-link:focus,
+.nav-big-link:active:focus{
+    box-shadow: 2px 2px 4px #d4c4c4;
+    border-color:none;
+    border: 0;
+    color: rgb(221, 126, 126);
+    background-color: rgba(219, 207, 205, 0.7);
+    text-decoration: none;
 }
-.navbar-list-left{
-    text-align: left;
-    margin:0;
-    padding-left: 20px;
-    color: blue;
-    
-}
-.navbar-list-right{
-    text-align: right;
-    margin: auto0;
-    padding-right: 20px;
-    color: red;
-}
-.navbar-list-left li{
-    justify-content: center;
-}
-.navbar-list-right li{
-   justify-content: center;
-   font-size: 28px;
-}
+
+
    /*--------------------------------------------------------- container */
 
 .logo-main{
@@ -82,6 +102,11 @@ margin: 0;
     margin: 0;
     padding: 0;
     border: 0;
+    padding-bottom:0;
+}
+.container-main{
+    margin-top: 20px;
+    
 }
 .main-info{
     display: block;
@@ -99,6 +124,12 @@ margin: 0;
 }
 .virus{
     letter-spacing: 20px;
+}
+.col-sm-4{
+    margin: 30px 0;
+    text-align: right;
+    font-weight: 300;
+    font-family: "Ex"
 }
 .col-md-4{
     margin: 60px 0;
@@ -132,7 +163,12 @@ margin: 0;
     padding-top: 10px;
 }
 .justify-content-between .col-md-4{
-    text-align: right; 
+    text-align: left; 
+    padding-left: 60px;
+}
+.justify-content-between .first-col{
+    text-align: right;
+    padding-right: 90px;
 }
 .justify-content-end .col-md-4{
     text-align: left;
@@ -144,6 +180,10 @@ margin: 0;
 }
 .justify-content-center .col-md-4{
     text-align: right;
+}
+.justify-content-center .sec-col{
+    text-align: right;
+    padding-right: 45px;
 }
 .spinner-grow {
     display: inline-block;
@@ -181,3 +221,37 @@ margin: 0;
     margin: 0 auto;
     
 }
+/*--------------------------------------------------------- footer */
+#footer{
+    margin: 0;
+    border: 0;
+    padding: 0;
+      position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+}
+.logo-footer{
+    background: url("../images/footer.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    background-color: rgba(251, 251, 251, 0.9);
+    margin:0;
+    border: 0;
+    padding: 0;
+    
+}
+.footer-color{
+    background-color: rgba(251, 251, 251, 0.72);
+    height: 30px;
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+
+
