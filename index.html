@@ -21,9 +21,9 @@
 	<header>
 		<div class="container-fluid x">
 			<div class="row">
-				
-					<a href="index.html" class="logo"></a>
-                    <div class="col-12 d-block d-sm-none">
+
+				<a href="index.html" class="logo"></a>
+				<div class="col-12 d-block d-sm-none">
 					<nav class="navbar navbar-dark navbar-expand-sm">
 						<a href="/" class="navbar-menu">COVID-19</a>
 						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,17 +68,26 @@
 	</nav>
 
 	<section class="container-fluid container-main">
-		<div class="main-header">
+        <!--mobile screen - COVID-19 header-->
+		<div class="d-block d-sm-none d-md-none sm-main-header">
+			<h2><strong class="sm-virus">COVID-19</strong></h2>
+			<p class="sm-virus-p">Here is Everything you need to know</p>
+		</div>
+        <!--computer screen - COVID-19 header-->
+        <div class="d-none d-sm-block main-header">
 			<h2><strong class="virus">COVID-19</strong></h2>
-			<p>Here is Everything you need to know</p>
+			<p class="virus-p">Here is Everything you need to know</p>
 		</div>
 		<div class="row main-info">
-			<div class="row image">
-				<div class="col-12">
+			<div class="row">
+				<div class="d-block d-sm-none d-md-none">
+					<a href="index.html" class="sm-logo-main"></a>
+				</div>
+                <div class="d-none d-sm-block">
 					<a href="index.html" class="logo-main"></a>
 				</div>
-
 			</div>
+            <!-- mobile screen - questions-->
 			<div class="d-block d-sm-none d-md-none sm-container">
 
 				<div class="row justify-content-start">
@@ -86,7 +95,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">Should I be Worried?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Should I be Worried?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -96,7 +105,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class="btn btn-info">What are the Treatments?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter2">What are the Treatments?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -107,7 +116,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">How to protect against the Virus?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter3">How to protect against the Virus?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -116,7 +125,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">What is the CoronaVirus?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter4">What is the CoronaVirus?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -127,7 +136,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">Is it Dangerous?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter5">Is it Dangerous?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -136,7 +145,7 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">Is there a Vaccine?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter6">Is there a Vaccine?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
@@ -147,56 +156,28 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">How Contageous is the Virus?</button>
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-					</div>
-					<div class="col-12 btn btn-info">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter7">How Contageous is the Virus?</button>
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
 					</div>
 				</div>
-				<!--<div class="row justify-content-around">
-					<div class="col-12 btn btn-info">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-                        <div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-					</div>
-					<div class="col-12 btn btn-info">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-                        <div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-					</div>
-				</div> -->
 			</div>
-
-			<div class="d-none d-sm-block d-block d-md-none">
+            <!-- computer screen - questions-->
+			<div class="d-none d-sm-block big-container">
 				<div class="row justify-content-start">
 					<div class="col-sm-4 first-col">
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
-						</div><button class=" btn btn-info">Should I be Worried?</button>
+						</div>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Should I be Worried?</button>
 					</div>
 
 					<div class="col-sm-4 sec-col">
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">What are the Treatments?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter2">What are the Treatments?</button>
 					</div>
 				</div>
 				<div class="row justify-content-center">
@@ -204,13 +185,13 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">How to protect against the CoronaVirus?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter3">How to protect against the CoronaVirus?</button>
 					</div>
 					<div class="col-sm-4 sec-col">
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">What is the CoronaVirus?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter4">What is the CoronaVirus?</button>
 					</div>
 				</div>
 				<div class="row justify-content-between">
@@ -218,117 +199,23 @@
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">Is it Dangerous?</button>
-					</div>
-					<div class="col-sm-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">Is there a Vaccine?</button>
-					</div>
-				</div>
-				<div class="row justify-content-end">
-					<div class="col-sm-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">How Contageous is the Virus?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter5">Is it Dangerous?</button>
 					</div>
 					<div class="col-sm-4 sec-col">
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">???</button>
-					</div>
-				</div>
-				<!--<div class="row justify-content-around">
-					<div class="col-sm-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-					</div>
-					<div class="col-sm-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-					</div>
-				</div>  -->
-			</div>
-
-			<div class="d-none d-md-block">
-				<div class="row justify-content-start">
-					<div class="col-12 col-md-4 first-col">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div><button class=" btn btn-info">Should I be Worried?</button>
-					</div>
-
-					<div class="col-12 col-md-4 sec-col">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">What are the Treatments?</button>
-					</div>
-				</div>
-				<div class="row justify-content-center">
-					<div class="col-md-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">How to protect against the CoronaVirus?</button>
-					</div>
-					<div class="col-md-4 sec-col">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">What is the CoronaVirus?</button>
-					</div>
-				</div>
-				<div class="row justify-content-between">
-					<div class="col-md-4 first-col">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">Is it Dangerous?</button>
-					</div>
-					<div class="col-md-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">Is there a Vaccine?</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter6">Is there a Vaccine?</button>
 					</div>
 				</div>
 				<div class="row justify-content-end">
-					<div class="col-md-4">
+					<div class="col-sm-4">
 						<div class="spinner-grow text-danger" role="status">
 							<span class="sr-only">Loading...</span>
 						</div>
-						<button class=" btn btn-info">How Contageous is the Virus?</button>
-					</div>
-					<div class="col-md-4 sec-col">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter7">How Contageous is the Virus?</button>
 					</div>
 				</div>
-				<!--<div class="row justify-content-around">
-					<div class="col-md-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-					</div>
-					<div class="col-md-4">
-						<div class="spinner-grow text-danger" role="status">
-							<span class="sr-only">Loading...</span>
-						</div>
-						<button class=" btn btn-info">???</button>
-					</div>
-				</div> -->
-
 			</div>
 		</div>
 	</section>
@@ -337,17 +224,175 @@
 		<div class="row">
 			<div class=" col-12 d-none d-sm-block col-sm-6">
 				<div class="footer-color">
-					<p>type here!</p>
+					<p>type here first!</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="logo-footer">
-					<p>type here!</p>
+					<p>type here again!</p>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+
+	<!-- Modal - should I be worried?-->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="logo-modal1"></div>
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Learn more...</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - What are the treatments?-->
+	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-logo">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle2">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+					</div>
+					<div class="modal-body">
+						...test1
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Learn more...</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - how to protect against the virus?-->
+	<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle3">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - what is the corona virus-->
+	<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle4">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - Is it dangerous?-->
+	<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle5">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - is there a vaccine?-->
+	<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle6">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal - how cantageous is the virus?-->
+	<div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle7">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

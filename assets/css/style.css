@@ -52,7 +52,6 @@ border-radius: 15%;
 
 .nav-bar-big{
     height: 180px;
-  
     width: 100%;
 }
 .big .nav-big-link{
@@ -65,7 +64,7 @@ border-radius: 15%;
     margin-bottom: 6px;
 }
 .big .link{
-    padding-top: 180px;
+    padding-top: 190px;
 }
 .nav-big-link:hover,
 .nav-big-link:active,
@@ -78,10 +77,31 @@ border-radius: 15%;
     background-color: rgba(219, 207, 205, 0.7);
     text-decoration: none;
 }
+a:hover {
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.6);
+}
 
 
    /*--------------------------------------------------------- container */
-
+.sm-logo-main{
+ height: 60vh;
+ width: 100%;
+ margin: 0px;
+ background: url("../images/cod-map.png") no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ object-fit: fill;
+/* align content, display in the middle*/
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ overflow: hidden;
+}
 .logo-main{
  height: 100vh;
  width: 100%;
@@ -97,6 +117,7 @@ border-radius: 15%;
  align-items: center;
  justify-content: center;
  position: absolute;
+ overflow: hidden;
 }
 .container-fluid{
     margin: 0;
@@ -111,12 +132,28 @@ border-radius: 15%;
 .main-info{
     display: block;
 }
+.sm-main-header{
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    letter-spacing: 6px;
+    padding: 0px;
+}
+.sm-virus{
+    letter-spacing: 20px;
+}
+.sm-virus-p{
+    color: red;
+}
 
 .main-header{
     text-align: center;
     justify-content: center;
     z-index: 1;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 30px;
     width: 100%;
     letter-spacing: 6px;
@@ -125,17 +162,20 @@ border-radius: 15%;
 .virus{
     letter-spacing: 20px;
 }
+.virus-p{
+    color: red;
+}
 .col-sm-4{
-    margin: 30px 0;
+    margin: 50px 0;
     text-align: right;
     font-weight: 300;
-    font-family: "Ex"
+    font-family: "Exo"
 }
 .col-md-4{
     margin: 60px 0;
     text-align: right;
     font-weight: 300;
-    font-family: "Ex"
+    font-family: "Exo"
 }
 .col-12{
     margin: 0;
@@ -143,7 +183,7 @@ border-radius: 15%;
     border:0;
     text-align: center;
     font-weight: 300;
-    font-family: "Ex"
+    font-family: "Exo"
 }
 .row{
     margin: 0;
@@ -165,6 +205,10 @@ border-radius: 15%;
 .justify-content-between .col-md-4{
     text-align: left; 
     padding-left: 60px;
+}
+.justify-content-between .sec-col{
+    text-align: left; 
+    padding-left: 5px;
 }
 .justify-content-between .first-col{
     text-align: right;
@@ -216,20 +260,39 @@ border-radius: 15%;
     color: rgb(221, 126, 126);
     background-color: rgba(219, 207, 205, 0.7);
 }
+.btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #b6b7b8;
+    border-color: #b6b7b8;
+}
 .sm-container{
-    width: 70%;
-    margin: 0 auto;
+ width: 70%;
+ margin: 0 auto;
+ padding-top: 50px;
+ min-height: 60vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 50px; /* height of your footer */
     
 }
+.big-container{
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+
 /*--------------------------------------------------------- footer */
 #footer{
-    margin: 0;
-    border: 0;
-    padding: 0;
-      position: absolute;
-    bottom: 0;
-    height: 10px;
-    width: 100%;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
 .logo-footer{
     background: url("../images/footer.jpeg");
@@ -241,7 +304,8 @@ border-radius: 15%;
     margin:0;
     border: 0;
     padding: 0;
-    
+   
+    text-align: right;
 }
 .footer-color{
     background-color: rgba(251, 251, 251, 0.72);
@@ -252,6 +316,33 @@ border-radius: 15%;
 }
 p{
     margin-bottom: 0;
+    color: black;
+    
 }
+/*---------------------------------------------------------Modals*/
 
-
+.logo-modal1{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/corona-1.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top:5px;
+    border: 0;
+    padding:0;
+    height: 105px;
+}
+.modal-logo{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../images/covid19_background.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.modal-body{
+height: 200px;
+}
+.modal-header{
+    padding-top: 0px;
+    
+}
