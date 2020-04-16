@@ -15,6 +15,9 @@
  position: absolute;
  overflow:fill;
 }
+body{
+    font-family: "Exo", sans-serif;
+}
 
 /*--------------------------------------------------------- Nav */
 
@@ -44,6 +47,7 @@ width: 25%;
     padding: 0;
     margin-bottom: 0;
     border-radius: 10%;
+    font-family: "Exo", sans-serif;
 }
 .navbar-toggler-icon {
 background-color: rgba(0,0,0,0.5);
@@ -62,6 +66,7 @@ border-radius: 15%;
     border-color:none;
     border: 0;
     margin-bottom: 6px;
+    font-family: "Exo", sans-serif;
 }
 .big .link{
     padding-top: 190px;
@@ -79,11 +84,13 @@ border-radius: 15%;
     color: rgb(221, 126, 126);
     background-color: rgba(219, 207, 205, 0.7);
     text-decoration: none;
+    font-family: "Exo", sans-serif;
 }
 a:hover {
     color: rgb(31, 30, 30);
     text-decoration: none;
     background-color:rgba(0, 0, 0, 0.6);
+    font-family: "Exo", sans-serif;
 }
 
 
@@ -144,6 +151,7 @@ a:hover {
     width: 100%;
     letter-spacing: 6px;
     padding: 0px;
+    font-family: "Exo", sans-serif;
 }
 .sm-virus{
     letter-spacing: 20px;
@@ -161,6 +169,7 @@ a:hover {
     width: 100%;
     letter-spacing: 6px;
     padding-top: 10px;
+    font-family: "Exo", sans-serif;
 }
 .virus{
     letter-spacing: 20px;
@@ -172,13 +181,13 @@ a:hover {
     margin: 50px 0;
     text-align: right;
     font-weight: 300;
-    font-family: "Exo"
+    font-family: "Exo", sans-serif;
 }
 .col-md-4{
     margin: 60px 0;
     text-align: right;
     font-weight: 300;
-    font-family: "Exo"
+   font-family: "Exo", sans-serif;
 }
 .col-12{
     margin: 0;
@@ -186,7 +195,7 @@ a:hover {
     border:0;
     text-align: center;
     font-weight: 300;
-    font-family: "Exo"
+    font-family: "Exo", sans-serif;
 }
 .row{
     margin: 0;
@@ -309,7 +318,7 @@ a:hover {
     border: 0;
     padding: 0;
     text-align: center;
-    justify-content: center;
+    justify-content: right;
 }
 .footer-color{
     background-color: rgba(251, 251, 251, 0.72);
@@ -324,7 +333,20 @@ footer .footer-link{
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    
+}
+footer .footer-link1{
+    margin-bottom: 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-weight:600;
+}
+a:hover {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    background-color: rgba(153, 150, 150, 0.5);
+    border-radius: 15%;
 }
 /*---------------------------------------------------------Modals*/
 
@@ -359,6 +381,7 @@ footer .footer-link{
 .modal-header{
     padding-top: 0px;
 }
+
 
 /*----------------------------------------------------------------------------worried page*/
 .logo-worried{
